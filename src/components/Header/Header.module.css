@@ -1,0 +1,23 @@
+.header {
+    width: 100%;
+    height: 0%;
+    background-color: var(--primary);
+    color: var(--white);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.header span {
+    font-size: 1.5rem; /* Lembrando que 16px é 1rem.*/
+    font-weight: bold;
+}
+
+.header a {
+    text-decoration: none;
+    color: var(--white);
+    padding-right: 1.5rem;
+    font-size: 1.125rem;
+}
